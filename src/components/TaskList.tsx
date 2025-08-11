@@ -1,5 +1,6 @@
 // src/components/TaskList.tsx
-import { useState, useEffect, FormEvent } from 'react';
+import { useState, useEffect } from 'react';
+import type { FormEvent } from 'react';
 import axios from 'axios';
 
 // Definimos la interfaz para una tarea
